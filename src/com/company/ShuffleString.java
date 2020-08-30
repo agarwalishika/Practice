@@ -1,7 +1,7 @@
 package com.company;
 
 /*
-https://leetcode.com/problems/shuffle-string/submissions/
+https://leetcode.com/problems/shuffle-string/
  */
 public class ShuffleString {
     public String restoreString(String s, int[] indices) {
