@@ -50,9 +50,6 @@ class Tester{
         int[] arr = {6, 3, 12, 2, 4, 9, 13, 1, 5, 7, 10, 15, 8, 11, 14};
 
         for (int i = 0; i < arr.length; i++) {
-            if (i == arr.length - 1){
-                int hello = 0;
-            }
             obj.insert(arr[i]);
         }
     }
