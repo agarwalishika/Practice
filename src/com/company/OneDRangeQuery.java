@@ -47,10 +47,10 @@ public class OneDRangeQuery {
 class Tester{
     public static void main(String[] args) {
         OneDRangeQuery object = new OneDRangeQuery();
-        int[] arr = {6, 3, 12, 2, 4, 9, 13, 1, 5, 7, 10, 15, 8, 11, 14};
+        int[] nums = {6, 3, 12, 2, 4, 9, 13, 1, 5, 7, 10, 15, 8, 11, 14};
 
-        for (int i = 0; i < arr.length; i++) {
-            object.insert(arr[i]);
+        for (int i = 0; i < nums.length; i++) {
+            object.insert(nums[i]);
         }
     }
 }
