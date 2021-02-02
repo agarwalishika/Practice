@@ -1,12 +1,12 @@
 package com.company;
 
 public class decodeXOR {
-    public int[] decode(int[] encoded, int first) {
-        int[] result = new int[encoded.length + 1];
+    public int[] decode(int[] code, int first) {
+        int[] result = new int[code.length + 1];
         result[0] = first;
 
-        for (int i = 0; i < encoded.length; i++) {
-            result[i+1] = (encoded[i] ^ result[i]);
+        for (int i = 0; i < code.length; i++) {
+            result[i+1] = (code[i] ^ result[i]);
         }
 
         return result;
