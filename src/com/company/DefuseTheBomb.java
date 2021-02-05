@@ -5,7 +5,7 @@ public class DefuseTheBomb {
         int[] arr = new int[code.length];
         if (k == 0) { return arr; }
 
-        for (int i = 0; i < code.length; i++) {
+        for (int i = 0; i < code.length; i+=1) {
             int curr = 0;
 
             if (k > 0) {
