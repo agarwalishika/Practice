@@ -9,7 +9,7 @@ public class DefuseTheBomb {
             int curr = 0;
 
             if (k > 0) {
-                for (int j = 1; j <= k; j++) {
+                for (int j = 1; j <= k; j+=1) {
                     int temp = (i + j) % code.length;
                     curr += code[temp];
                 }
