@@ -14,7 +14,7 @@ public class DefuseTheBomb {
                     curr += code[temp];
                 }
             } else {
-                for (int j = 1; j <= Math.abs(k); j++) {
+                for (int j = 1; j <= Math.abs(k); j+=1) {
                     int temp = i - j;
                     if (temp < 0) {
                         temp += code.length;
