@@ -8,7 +8,7 @@ public class LargestSubstring {
             int endc = s.lastIndexOf(begc);
 
             if (endc != begc) {
-                int currLen = endc - i - 1;
+                int currLen = endc - 1 - i;
                 maxLen = Math.max(maxLen, currLen);
             }
         }
