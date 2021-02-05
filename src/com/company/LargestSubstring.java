@@ -17,6 +17,6 @@ public class LargestSubstring {
     }
 
     public static void main(String[] args) {
-        maxLengthBetweenEqualCharacters("cbzxy");
+        maxLengthBetweenEqualCharacters("cbzxya");
     }
 }
