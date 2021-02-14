@@ -10,9 +10,9 @@ public class SubtractTheProductAndSumsOfDigits {
         int sum = 0;
 
         for (int i = 0; i < numDig; i++) {
-            int dig = getDigit(i, n);
-            prod *= dig;
-            sum += dig;
+            int digit = getDigit(i, n);
+            prod *= digit;
+            sum += digit;
         }
 
         return prod - sum;
