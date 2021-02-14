@@ -15,7 +15,7 @@ public class MaximumProductOfElementsInArray {
     public static int findMaxIndexExcluding(int[] nums, int index) {
         int maxI = 0;
         int max = 0;
-        System.out.println("index: " + index);
+        System.out.println("Index of:: " + index);
         for (int i = 0; i < nums.length; i++) {
             if (i != index && max < nums[i]) {
                 maxI = i;
