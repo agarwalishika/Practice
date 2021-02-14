@@ -16,20 +16,20 @@ public class SimilarDNA {
     private static boolean areSimilar(String cand, String ref) {
         int c = 0;
         int r = 0;
-        String candTemp = cand + cand;
+        String cAndTemp = cand + cand;
         String refTemp = ref + ref;
 
         int clen = cand.length();
-        int ctlen = candTemp.length();
+        int ctlen = cAndTemp.length();
         int rtlen = refTemp.length();
 
 
         while (c < ctlen - clen && r < rtlen - clen) {
             int numMistakes = 0;
-            char firstOfCand = candTemp.charAt(c);
+            char firstOfCand = cAndTemp.charAt(c);
             r = ref.indexOf(firstOfCand);
             for(int i = 0; r >= 0 && i < clen; i++) {
-                if (candTemp.charAt(c + i) != refTemp.charAt(r + i)) {
+                if (cAndTemp.charAt(c + i) != refTemp.charAt(r + i)) {
                     numMistakes++;
                 }
             }
